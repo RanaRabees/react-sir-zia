@@ -1,0 +1,21 @@
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import Myfirst from './components/Myfirst'
+import Mysecond from './components/Mysecond'
+import Mythree from './components/Mythree'
+import Myfour from './components/Myfour'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export default function Home() {
+  return (
+    <>
+      <Myfirst />
+      <Mysecond />
+      <Mythree />
+      <Myfour />
+
+    </>
+  )
+}
+
